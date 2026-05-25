@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drones na Agricultura | Inovação no Campo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🌾</span>
+                <span class="logo-text">AgroDrones</span>
+            </div>
+            <nav class="nav">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#topicos" class="nav-link">Tópicos</a>
+                <a href="#brasil" class="nav-link">No Brasil</a>
+                <a href="#futuro" class="nav-link">Futuro</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Drones na Agricultura</h1>
+                <p class="hero-subtitle">Tecnologia de precisão transformando o campo brasileiro</p>
+                <div class="hero-buttons">
+                    <a href="#topicos" class="btn-primary">Explorar Tópicos</a>
+                    <a href="#" onclick="window.open('pagina-futuro.html','_blank')" class="btn-secondary">Ver o Futuro</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTRODUÇÃO -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <h2>Bem-vindo ao futuro do campo</h2>
+                    <p>Os drones agrícolas representam uma das maiores revoluções na agricultura de precisão. Eles permitem monitorar, analisar e tratar lavouras com eficiência inédita, reduzindo custos e impactos ambientais.</p>
+                    <button onclick="window.open('pagina-introducao.html', '_blank')" class="btn-detail">Saiba mais sobre a revolução</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TÓPICOS PRINCIPAIS -->
+    <section id="topicos" class="topics-section">
+        <div class="container">
+            <h2 class="section-title">Principais Tópicos</h2>
+            <div class="topics-grid" id="topics-grid">
+                <!-- Cards serão gerados pelo JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- BRASIL -->
+    <section id="brasil" class="brasil-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Uso de Drones no Brasil</h2>
+                <p class="section-desc">Líder mundial em tecnologia agrícola, o Brasil tem adotado drones em grandes culturas como soja, milho, café e cana-de-açúcar.</p>
+            </div>
+            <button onclick="window.open('pagina-brasil.html', '_blank')" class="btn-detail center">Conhecer o cenário brasileiro</button>
+        </div>
+    </section>
+
+    <!-- FUTURO -->
+    <section id="futuro" class="futuro-section">
+        <div class="container">
+            <h2 class="section-title">O Futuro já chegou</h2>
+            <div class="futuro-content">
+                <p>Inteligência artificial, integração com satélites e drones autônomos são o próximo passo para uma agricultura ainda mais sustentável e produtiva.</p>
+                <button onclick="window.open('pagina-futuro.html', '_blank')" class="btn-detail">Explorar o amanhã</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AgroDrones • Uma visão para o agronegócio brasileiro</p>
+            <div class="footer-links">
+                <a href="#">Contato</a>
+                <a href="#">Fontes</a>
+                <a href="#">Referências</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
